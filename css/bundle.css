@@ -1488,18 +1488,25 @@ th {
 }
 .price__title{
   display: inline-block;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  color: #000;
+  text-transform: uppercase;
 }
 .price__menu{
   display: inline-block;
   text-decoration: none;
   color: #000;
   cursor: pointer;
+  position: relative
 }
 .price__dropdown{
   display: none;
   list-style-type: none;
   padding: 0;
   margin: 0;
+  position: absolute;
 }
 .price__link{
   text-decoration: none;
@@ -1509,6 +1516,7 @@ th {
   display: inline-block;
 }
 .price__block{
+  width: 165px;
   display: inline-block;
   padding: 5px;
   border: 1px solid #222;
