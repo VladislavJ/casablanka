@@ -173,5 +173,9 @@
 		color: #fff;
 		font-weight: bold;
 		text-transform: uppercase;
+		&:hover{
+			background: #0e91c4;
+			color: #fff;
+		}
 	}
 }

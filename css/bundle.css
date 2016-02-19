@@ -1424,6 +1424,10 @@ th {
   font-weight: bold;
   text-transform: uppercase;
 }
+.hostel__button:hover{
+  background: #0e91c4;
+  color: #fff;
+}
 .menu{
 	background: url(../img/menu.jpg);
 	background-size: cover;
@@ -1463,12 +1467,35 @@ th {
 .menu__feedback{
   display: inline-block;
   vertical-align: top;
-  margin: 18px;
+  padding: 19px 18px;
+  background: #fff;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 14px;
   color: #58c7f2;
   font-weight: bold;
-  border-bottom: 1px dashed #58c7f2;
   text-decoration: none;
   text-transform: uppercase;
+}
+.menu__feedback:after{
+  position: absolute;
+  content: "";
+  display: block;
+  border-bottom: 1px dashed #58c7f2;
+}
+.menu__feedback:hover{
+  background: #58c7f2;
+  color: #fff;
+}
+.price__dropdown{
+  display: none;
+  list-style-type: none;
+  padding: 0;
+}
+.price__menu{
+  text-decoration: none;
+  color: #000;
+}
+.price__link{
+  text-decoration: none;
+  color: #949494;
 }

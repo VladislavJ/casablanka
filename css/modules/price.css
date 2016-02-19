@@ -1,0 +1,15 @@
+.price{
+	&__dropdown{
+		display: none;
+		list-style-type: none;
+		padding: 0;
+	}
+	&__menu{
+		text-decoration: none;
+		color: #000;
+	}
+	&__link{
+		text-decoration: none;
+		color: #949494;
+	}
+}
