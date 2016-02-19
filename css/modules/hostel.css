@@ -64,7 +64,7 @@
 	}
 	&__block2{
 		display: inline-block;
-		width: 242px;
+		width: 241px;
 		height: 145px;
 		&::after{
 			content: "";
@@ -87,7 +87,7 @@
 			background-size: contain;
 			position: absolute;
 			height: 120px;
-			width: 277px;
+			width: 280px;
 			top: 366px;
 		}
 	}
