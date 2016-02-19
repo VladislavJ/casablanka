@@ -102,6 +102,47 @@
 		width: 240px;
 		z-index: 1;
 		text-align: left;
+		font-family: 'Roboto Condensed', sans-serif;
+		color: #fff;
+	}
+	&__svg1{
+		&::after{
+			content: "";
+			display: block;
+			position: absolute;
+			top: 40px;
+			left: 210px;
+			width: 50px;
+			height: 25px;
+			background: url('../img/visa.png') no-repeat;
+		}
+	}
+	&__svg2{
+		&::after{
+			content: "";
+			display: block;
+			position: absolute;
+			bottom: 45px;
+			right: 250px;
+			width: 22px;
+			height: 32px;
+			background: url('../img/location.png') no-repeat;
+		}
+	}
+	&__svg3{
+		&::after{
+			content: "";
+			display: block;
+			position: absolute;
+			top: 32px;
+			left: 15px;
+			width: 22px;
+			height: 30px;
+			background: url('../img/lamp.png') no-repeat;
+		}
+	}
+	&__description span{
+		font-weight: bold;
 	}
 	&__align1{
 		left: 50px;
