@@ -1486,16 +1486,30 @@ th {
   background: #58c7f2;
   color: #fff;
 }
+.price__title{
+  display: inline-block;
+}
+.price__menu{
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
 .price__dropdown{
   display: none;
   list-style-type: none;
   padding: 0;
-}
-.price__menu{
-  text-decoration: none;
-  color: #000;
+  margin: 0;
 }
 .price__link{
   text-decoration: none;
   color: #949494;
+}
+.price__block.open ul{
+  display: inline-block;
+}
+.price__block{
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid #222;
 }
