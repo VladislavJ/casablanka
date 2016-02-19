@@ -1304,9 +1304,14 @@ th {
   color: #fff;
   text-decoration: none;
 }
+.hostel__main{
+  position: relative;
+  bottom: 30px;
+  margin-bottom: 30px;
+}
 .hostel__block1{
   display: inline-block;
-  width: 300px;
+  width: 301px;
   height: 145px;
 }
 .hostel__block1::after{
@@ -1345,7 +1350,7 @@ th {
   position: absolute;
   height: 120px;
   width: 280px;
-  top: 366px;
+  top: 53px;
 }
 .hostel__description{
   position: relative;
@@ -1369,7 +1374,7 @@ th {
 }
 .hostel__button{
   display: block;
-  margin: 50px auto;
+  margin: auto;
   width: 445px;
   height: 80px;
   background: #58c7f2;

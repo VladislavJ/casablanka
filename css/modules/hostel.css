@@ -48,9 +48,14 @@
 		color: #fff;
 		text-decoration: none;
 	}
+	&__main{
+		position: relative;
+		bottom: 30px;
+		margin-bottom: 30px;
+	}
 	&__block1{
 		display: inline-block;
-		width: 300px;
+		width: 301px;
 		height: 145px;
 		&::after{
 			content: "";
@@ -88,7 +93,7 @@
 			position: absolute;
 			height: 120px;
 			width: 280px;
-			top: 366px;
+			top: 53px;
 		}
 	}
 	&__description{
@@ -113,7 +118,7 @@
 	}
 	&__button{
 		display: block;
-		margin: 50px auto;
+		margin: auto;
 		width: 445px;
 		height: 80px;
 		background: #58c7f2;
