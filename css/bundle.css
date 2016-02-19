@@ -1344,8 +1344,8 @@ th {
   background-size: contain;
   position: absolute;
   height: 120px;
-  width: 280px;
-  top: 363px;
+  width: 277px;
+  bottom: 69px;
 }
 .hostel__description{
   position: relative;
