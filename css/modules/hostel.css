@@ -1,0 +1,121 @@
+.hostel{
+	height: 600px;
+	background: url(../img/hostel__bg.jpg);
+	background-size: cover;
+	&__title{
+		display: inline-block;
+		margin-top: 90px;
+		width: 815px;
+		height: 95px;
+		background-color: rgba( 88, 199, 242, 0.871 );
+		color: #fff;
+		text-align: center;
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 72px;
+		line-height: 92px;
+	}
+	&__title span{
+		text-transform: uppercase;
+	}
+	&__contact{
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 95px;
+		margin-left: 50px;
+	}
+	&__phone{
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 30px;
+		color: #fff;
+		margin: 0;
+		padding-bottom: 25px;
+	}
+	&__phone span{
+		font-weight: bold;
+	}
+	&__feedback{
+		width: 240px;
+		height: 48px;
+		display: block;
+		margin: auto;
+		text-align: center;
+		line-height: 48px;
+		border: 1px solid #fff;
+		background-color: rgba( 255, 255, 255 , 0.20 );
+		font-family: 'Roboto Condensed', sans-serif;
+		font-weight: bold;
+		font-size: 24px;
+		color: #fff;
+		text-decoration: none;
+	}
+	&__block1{
+		display: inline-block;
+		width: 300px;
+		height: 145px;
+		&::after{
+			content: "";
+			display: block;
+			background: url('../svg/block1.svg') no-repeat;
+			background-size: contain;
+			position: absolute;
+			width: 345px;
+			height: 345px;
+		}
+	}
+	&__block2{
+		display: inline-block;
+		width: 242px;
+		height: 145px;
+		&::after{
+			content: "";
+			display: block;
+			background: url('../svg/block2.svg') no-repeat;
+			background-size: contain;
+			position: absolute;
+			width: 288px;
+			height: 145px;
+		}
+	}
+	&__block3{
+		display: inline-block;
+		width: 180px;
+		height: 184px;
+		&::after{
+			content: "";
+			display: block;
+			background: url('../svg/block3.svg') no-repeat;
+			background-size: contain;
+			position: absolute;
+			height: 196px;
+			width: 281px;
+			top: 382px;
+		}
+	}
+	&__description{
+		position: relative;
+		top: 90px;
+		width: 225px;
+		z-index: 1;
+		text-align: left;
+	}
+	&__align{
+		text-align: right;
+	}
+	&__button{
+		display: block;
+		margin: 90px auto;
+		width: 445px;
+		height: 80px;
+		background: #58c7f2;
+		color: #fff;
+		border-bottom: 7px solid #0e91c4;
+		border-top: 0;
+		border-left: 0;
+		border-right: 0;
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 30px;
+		color: #fff;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+}
