@@ -1308,6 +1308,7 @@ th {
   position: relative;
   bottom: 30px;
   margin-bottom: 30px;
+  height: 0;
 }
 .hostel__block1{
   display: inline-block;
@@ -1423,6 +1424,8 @@ th {
   color: #fff;
   font-weight: bold;
   text-transform: uppercase;
+  position: relative;
+  top: 180px;
 }
 .hostel__button:hover{
   background: #0e91c4;
@@ -1520,4 +1523,17 @@ th {
   display: inline-block;
   padding: 5px;
   border: 1px solid #222;
+}
+.price__include1{
+  width: 240px;
+  height: 60px;
+}
+.price__include1::after{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 240px;
+  height: 25px;
+  background: url('../svg/arrow.svg') no-repeat;
+  background-size: contain;
 }

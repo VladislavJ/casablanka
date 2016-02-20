@@ -34,4 +34,17 @@
 		padding: 5px;
 		border: 1px solid #222;
 	}
+	&__include1{
+		width: 240px;
+		height: 60px;
+		&::after{
+			content: "";
+			display: block;
+			position: absolute;
+			width: 240px;
+			height: 25px;
+			background: url('../svg/arrow.svg') no-repeat;
+			background-size: contain;
+		}
+	}
 }
