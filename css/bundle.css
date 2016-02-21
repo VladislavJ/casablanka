@@ -1524,16 +1524,77 @@ th {
   padding: 5px;
   border: 1px solid #222;
 }
-.price__include1{
-  width: 240px;
-  height: 60px;
+.price__include--active{
+  width: 245px;
 }
-.price__include1::after{
+.price__include--active::after{
+  content: "";
+  display: block;
+  position: relative;
+  width: 247px;
+  height: 74px;
+  background: url('../svg/arrow.svg') no-repeat;
+  background-size: contain;
+}
+.price__include--def{
+  width: 245px;
+  padding: 14px 0;
+  border: 1px dashed #777;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+.price__description--active{
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: 60px;
+  z-index: 1;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #000;
+}
+.price__description--def{
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: 0;
+  z-index: 1;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #626262;
+}
+.price__span{
+  text-transform: uppercase;
+}
+.price__sex::after{
   content: "";
   display: block;
   position: absolute;
-  width: 240px;
-  height: 25px;
-  background: url('../svg/arrow.svg') no-repeat;
-  background-size: contain;
+  top: 6px;
+  left: 20px;
+  width: 40px;
+  height: 32px;
+  background: url('../svg/sex.svg') no-repeat;
+}
+.price__woman::after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 6px;
+  left: 20px;
+  width: 32px;
+  height: 32px;
+  background: url('../svg/woman.svg') no-repeat;
+}
+.price__man::after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 6px;
+  left: 20px;
+  width: 32px;
+  height: 32px;
+  background: url('../svg/man.svg') no-repeat;
 }
