@@ -1558,7 +1558,7 @@ th {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
   font-size: 18px;
-  color: #000;
+  color: #626262;
 }
 .price__description{
   text-align: center;
@@ -1569,7 +1569,7 @@ th {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
   font-size: 18px;
-  color: #626262;
+  color: #000;
 }
 .price__span{
   text-transform: uppercase;
