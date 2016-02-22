@@ -47,6 +47,9 @@
 		font-size: 24px;
 		color: #fff;
 		text-decoration: none;
+		&:hover{
+			background-color: rgba( 88, 199, 242 , 0.85 );
+		}
 	}
 	&__main{
 		position: relative;

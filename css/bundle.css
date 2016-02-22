@@ -1304,6 +1304,9 @@ th {
   color: #fff;
   text-decoration: none;
 }
+.hostel__feedback:hover{
+  background-color: rgba( 88, 199, 242 , 0.85 );
+}
 .hostel__main{
   position: relative;
   bottom: 30px;
@@ -1480,10 +1483,9 @@ th {
   text-transform: uppercase;
 }
 .menu__feedback:after{
-  position: absolute;
+  position: relative;
   content: "";
   display: block;
-  border-bottom: 1px dashed #58c7f2;
 }
 .menu__feedback:hover{
   background: #58c7f2;
@@ -1542,6 +1544,7 @@ th {
   border: 1px dashed #777;
   margin-bottom: 10px;
   border-radius: 3px;
+  cursor: pointer;
 }
 .price__description--active{
   text-align: center;

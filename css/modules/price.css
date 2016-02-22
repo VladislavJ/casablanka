@@ -52,6 +52,7 @@
 		border: 1px dashed #777;
 		margin-bottom: 10px;
 		border-radius: 3px;
+		cursor: pointer;
 	}
 	&__description--active{
 		text-align: center;

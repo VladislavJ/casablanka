@@ -159,6 +159,14 @@
       menuElem.classList.toggle('open');
     };
   </script>
+  <script>
+	var SuperObjects = document.querySelectorAll('.price__include--def');
+	for(k in SuperObjects){
+		SuperObjects[k].onClick = function{
+			this.classList.add('price__include--active');
+		}
+	}
+  </script>
 
 </body>
 </html>
