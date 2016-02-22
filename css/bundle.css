@@ -1526,10 +1526,18 @@ th {
   padding: 5px;
   border: 1px solid #222;
 }
-.price__include--active{
+.price__item{
+  width: 245px;
+  padding: 14px 0;
+  border: 1px dashed #777;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.price__item--active{
   width: 245px;
 }
-.price__include--active::after{
+.price__item--active::after{
   content: "";
   display: block;
   position: relative;
@@ -1537,14 +1545,6 @@ th {
   height: 74px;
   background: url('../svg/arrow.svg') no-repeat;
   background-size: contain;
-}
-.price__include--def{
-  width: 245px;
-  padding: 14px 0;
-  border: 1px dashed #777;
-  margin-bottom: 10px;
-  border-radius: 3px;
-  cursor: pointer;
 }
 .price__description--active{
   text-align: center;
@@ -1557,7 +1557,7 @@ th {
   font-size: 18px;
   color: #000;
 }
-.price__description--def{
+.price__description{
   text-align: center;
   margin: auto;
   position: relative;

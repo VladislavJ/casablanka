@@ -34,7 +34,15 @@
 		padding: 5px;
 		border: 1px solid #222;
 	}
-	&__include--active{
+	&__item{
+		width: 245px;
+		padding: 14px 0;
+		border: 1px dashed #777;
+		margin-bottom: 10px;
+		border-radius: 3px;
+		cursor: pointer;
+	}
+	&__item--active{
 		width: 245px;
 		&::after{
 			content: "";
@@ -45,14 +53,6 @@
 			background: url('../svg/arrow.svg') no-repeat;
 			background-size: contain;
 		}
-	}
-	&__include--def{
-		width: 245px;
-		padding: 14px 0;
-		border: 1px dashed #777;
-		margin-bottom: 10px;
-		border-radius: 3px;
-		cursor: pointer;
 	}
 	&__description--active{
 		text-align: center;
@@ -65,7 +65,7 @@
 		font-size: 18px;
 		color: #000;
 	}
-	&__description--def{
+	&__description{
 		text-align: center;
 		margin: auto;
 		position: relative;

@@ -122,28 +122,28 @@
 				<div class="price__wrap">
 					<!-- active -->
 
-					<div class="price__include--active">
+					<div class="price__item--active">
 						<div class="price__description--active"><span class="price__span">общий</span> <br>8 человек</div>
 					</div>
 
 					<!-- def -->
-					<div class="price__include--def">
-						<div class="price__description--def price__sex"><span class="price__span">общий</span> <br> 8 человек</div>
+					<div class="price__item">
+						<div class="price__description price__sex"><span class="price__span">общий</span> <br> 8 человек</div>
 					</div>
-					<div class="price__include--def">
-						<div class="price__description--def price__sex"><span class="price__span">общий</span> <br> 6 человек</div>
+					<div class="price__item">
+						<div class="price__description price__sex"><span class="price__span">общий</span> <br> 6 человек</div>
 					</div>
-					<div class="price__include--def">
-						<div class="price__description--def price__woman"><span class="price__span">женский</span> <br> 6 человек</div>
+					<div class="price__item">
+						<div class="price__description price__woman"><span class="price__span">женский</span> <br> 6 человек</div>
 					</div>
-					<div class="price__include--def">
-						<div class="price__description--def price__man"><span class="price__span">мужской</span> <br> 6 человек</div>
+					<div class="price__item">
+						<div class="price__description price__man"><span class="price__span">мужской</span> <br> 6 человек</div>
 					</div>
-					<div class="price__include--def">
-						<div class="price__description--def price__sex"><span class="price__span">vip - 1</span> <br> 1-2 человека</div>
+					<div class="price__item">
+						<div class="price__description price__sex"><span class="price__span">vip - 1</span> <br> 1-2 человека</div>
 					</div>
-					<div class="price__include--def">
-						<div class="price__description--def price__sex"><span class="price__span">vip - 2</span> <br> 1-2 человека</div>
+					<div class="price__item">
+						<div class="price__description price__sex"><span class="price__span">vip - 2</span> <br> 1-2 человека</div>
 					</div>
 				</div>
 			</div>
@@ -160,10 +160,10 @@
     };
   </script>
   <script>
-	var SuperObjects = document.querySelectorAll('.price__include--def');
+	var SuperObjects = document.querySelectorAll('.price__item');
 	for(k in SuperObjects){
 		SuperObjects[k].onclick = function(){
-			this.classList.add('price__include--active');
+			this.classList.toggle('price__item--active');
 		}
 	}
   </script>
