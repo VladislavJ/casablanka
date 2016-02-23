@@ -43,7 +43,6 @@
 		cursor: pointer;
 	}
 	&__item--active{
-		width: 245px;
 		border: 1px solid transparent;
 		content: "";
 		display: block;
