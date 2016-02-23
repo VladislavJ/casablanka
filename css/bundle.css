@@ -1535,8 +1535,7 @@ th {
   cursor: pointer;
 }
 .price__item--active{
-  width: 245px;
-  border: 1px solid transparent;
+  border: transparent;
   content: "";
   display: block;
   background: url('../svg/arrow.svg') no-repeat;
