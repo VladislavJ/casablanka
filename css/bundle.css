@@ -1608,13 +1608,6 @@ th {
   background: #0e91c4;
   color: #fff;
 }
-.price__text{
-  display: inline-block;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: lighter;
-  font-size: 14px;
-  color: #585858;
-}
 .price__title3{
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 30px;
@@ -1627,4 +1620,23 @@ th {
 }
 .price__time{
   display: inline-block;
+}
+.price__icon1::after{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: url('../svg/icon1.svg') no-repeat;
+}
+.price__text{
+  display: inline-block;
+  padding-right: 60px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  color: #585858;
+}
+.price__wrp{
+  padding-left: 16px;
 }
