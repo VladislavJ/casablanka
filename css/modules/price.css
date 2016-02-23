@@ -48,7 +48,6 @@
 		content: "";
 		display: block;
 		width: 247px;
-		height: 46px;
 		background: url('../svg/arrow.svg') no-repeat;
 		background-size: contain;
 	}
