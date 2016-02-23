@@ -43,7 +43,7 @@
 		cursor: pointer;
 	}
 	&__item--active{
-		border: transparent;
+		border-color: transparent;
 		content: "";
 		display: block;
 		background: url('../svg/arrow.svg') no-repeat;
