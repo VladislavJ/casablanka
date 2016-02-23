@@ -47,7 +47,6 @@
 		border: 1px solid transparent;
 		content: "";
 		display: block;
-		width: 247px;
 		background: url('../svg/arrow.svg') no-repeat;
 		background-size: contain;
 	}
