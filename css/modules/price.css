@@ -102,4 +102,44 @@
 			background: url('../svg/man.svg') no-repeat;
 		}
 	}
+	&__button{
+		display: block;
+		width: 445px;
+		height: 80px;
+		background: #58c7f2;
+		color: #fff;
+		border-bottom: 7px solid #0e91c4;
+		border-top: 0;
+		border-left: 0;
+		border-right: 0;
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 30px;
+		color: #fff;
+		font-weight: bold;
+		text-transform: uppercase;
+		&:hover{
+			background: #0e91c4;
+			color: #fff;
+		}
+	}
+	&__text{
+		display: inline-block;
+		font-family: 'Roboto Condensed', sans-serif;
+		font-weight: lighter;
+		font-size: 14px;
+		color: #585858;
+	}
+	&__title3{
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 30px;
+		color: #58c7f2;
+		margin-top: 20px;
+		margin-bottom: 48px;
+	}
+	&__title3 .span{
+		text-transform: uppercase;
+	}
+	&__time{
+		display: inline-block;
+	}
 }

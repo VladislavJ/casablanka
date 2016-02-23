@@ -1315,7 +1315,7 @@ th {
 }
 .hostel__block1{
   display: inline-block;
-  width: 301px;
+  width: 300px;
   height: 145px;
 }
 .hostel__block1::after{
@@ -1353,7 +1353,7 @@ th {
   background-size: contain;
   position: absolute;
   height: 120px;
-  width: 280px;
+  width: 281px;
   top: 53px;
 }
 .hostel__description{
@@ -1587,4 +1587,44 @@ th {
   width: 32px;
   height: 32px;
   background: url('../svg/man.svg') no-repeat;
+}
+.price__button{
+  display: block;
+  width: 445px;
+  height: 80px;
+  background: #58c7f2;
+  color: #fff;
+  border-bottom: 7px solid #0e91c4;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.price__button:hover{
+  background: #0e91c4;
+  color: #fff;
+}
+.price__text{
+  display: inline-block;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  color: #585858;
+}
+.price__title3{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 30px;
+  color: #58c7f2;
+  margin-top: 20px;
+  margin-bottom: 48px;
+}
+.price__title3 .span{
+  text-transform: uppercase;
+}
+.price__time{
+  display: inline-block;
 }
